@@ -38,27 +38,5 @@ export class ViewerCourseComponent implements OnInit {
     });
   }
 
-  // getChapterById() {
-  //   console.info("cliquez 🔔")
-  //   const courseId = +this.route.snapshot.paramMap.get('courseId')!;
-  //   const chapterId = +this.route.snapshot.paramMap.get('chapterId')!;
-  //   const lessonId = +this.route.snapshot.paramMap.get('lessonId')!;
-  //   console.info(courseId)
-  //   console.info(chapterId)
-  //   console.info(lessonId)
-  //   this.courseService.getChapterById(courseId, chapterId).subscribe(chapter => {
-  //     this.chapter = chapter
-  //     this.currentLessonIndex = chapter.lessons.findIndex(l => l.id === lessonId);
-  //     this.currentLesson = chapter.lessons[this.currentLessonIndex];
-  //   })
 }
-
-
-
-// nextLesson() {
-// if (this.currentLessonIndex + 1 < this.course.lessons.length) {
-// //   const nextLesson = this.course.lessons[this.currentLessonIndex + 1];
-//   this.router.navigate(['/courses', this.course.id, 'lessons', nextLesson.id]);
-// }
-// }
 

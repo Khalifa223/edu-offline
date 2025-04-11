@@ -1,0 +1,84 @@
+<!-- chapter-quiz.component.html
+
+<div *ngIf="!quizFinished && quizzes.length">
+  <h2 class="text-xl font-bold mb-4">
+    Question {{ currentQuestionIndex + 1 }} sur {{ quizzes.length }}
+  </h2>
+
+  <p class="mb-4 text-lg font-medium">
+    {{ quizzes[currentQuestionIndex].question }}
+  </p>
+
+  <div class="space-y-2">
+    <button
+      *ngFor="let option of quizzes[currentQuestionIndex].options; let i = index"
+      (click)="selectOption(i)"
+      [ngClass]="{
+        'bg-blue-100 text-blue-800 border-blue-500': selectedOptionIndex === i,
+        'bg-white hover:bg-gray-100': selectedOptionIndex !== i
+      }"
+      class="block w-full border rounded p-3 text-left transition-all"
+      [disabled]="showExplanation"
+    >
+      {{ option }}
+    </button>
+  </div>
+
+  <div *ngIf="showExplanation" class="mt-4 p-4 border-l-4 border-green-500 bg-green-50">
+    <p class="text-sm text-green-700">
+      {{ quizzes[currentQuestionIndex].explanation }} -->
+
+
+      <!-- Liste des questions -->
+<!-- <div class="question-list">
+  <h3>Questions du quiz</h3>
+  <ul>
+    <li 
+      *ngFor="let q of quizzes; let i = index" 
+      [class.active]="i === currentQuestionIndex"
+      (click)="goToQuestion(i)">
+      Question {{ i + 1 }} : {{ q.question | slice:0:40 }}...
+    </li>
+  </ul>
+</div> -->
+
+<!-- Question actuelle -->
+<div class="quiz-content">
+  <!-- <h2>{{chapter.title}}</h2> -->
+  <h2>Question {{ currentQuestionIndex + 1 }} sur {{ quizzes.length }}</h2>
+  <p>{{ quizzes[currentQuestionIndex].question }}</p>
+
+  <!-- <button 
+    *ngFor="let option of quizzes[currentQuestionIndex]?.options; let i = index"
+    class="quiz-option"
+    [class.selected]="selectedOptionIndex === i"
+    (click)="selectOption(i)"
+    [disabled]="selectedOptionIndex !== null">
+    {{ option }}
+  </button> -->
+
+  <ul class="option-list">
+    <li 
+      *ngFor="let option of quizzes[currentQuestionIndex]?.options; let i = index"
+      (click)="selectOption(i)"
+      [class.selected]="selectedOptionIndex === i"
+      [class.correct]="showExplanation && i === quizzes[currentQuestionIndex].answerIndex"
+      [class.incorrect]="showExplanation && selectedOptionIndex === i && i !== quizzes[currentQuestionIndex].answerIndex"
+      [class.disabled]="selectedOptionIndex !== null">
+      {{ option }}
+    </li>
+  </ul>
+
+  <div *ngIf="showExplanation" class="explanation">
+    <p>{{ quizzes[currentQuestionIndex].explanation }}</p>
+  </div>
+
+  <div *ngIf="quizFinished" class="result">
+    <p>Votre score : {{ score }} / {{ quizzes.length }}</p>
+    <button class="custom-quiz-btn" (click)="restartQuiz()">Recommencer</button>
+  </div>
+
+  <div *ngIf="!quizFinished">
+    <button class="custom-quiz-btn" (click)="nextQuestion()" [disabled]="selectedOptionIndex === null">Suivant</button>
+  </div>
+</div>

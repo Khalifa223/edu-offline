@@ -13,6 +13,7 @@ import { ViewerLessonComponent } from './core/course/lesson/viewer-lesson/viewer
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
 import { ViewerChapterComponent } from './core/course/chapter/viewer-chapter/viewer-chapter.component';
 import { ListChapterComponent } from './core/course/chapter/list-chapter/list-chapter.component';
+import { ViewerQuizComponent } from './core/course/quiz/viewer-quiz/viewer-quiz.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ListChapterComponent } from './core/course/chapter/list-chapter/list-ch
     SafeUrlPipe,
     ViewerChapterComponent,
     ListChapterComponent,
+    ViewerQuizComponent,
   ],
   imports: [
     BrowserModule,
