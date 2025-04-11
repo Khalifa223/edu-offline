@@ -12,64 +12,11 @@ import { Observable } from 'rxjs';
   styleUrls: ['./viewer-lesson.component.css']
 })
 export class ViewerLessonComponent implements OnInit{
-
-  // currentLessonIndex!: number
-  // quiz!: Quiz
-  // currentLesson: Lesson |any = { id: 0, title: "", content: "", pdfUrl: "", videoUrl: "", quiz: {question: "", options: [], answerIndex: 0 } }
-  // course!: Course
-  courses!: Course[];
-  lesson: any;
-  chapterTitle: string = '';
-  courseTitle: string = '';
-  courses$!: Observable<any[]>; // Observable pour la liste des cours
-
-  // constructor(
-  //   private router: Router,
-  //   private route: ActivatedRoute,
-  //   private courseService: CourseService
-  // ) { }
-  // ngOnInit(): void {
-  //   this.getCourseById();
-  //   console.info(this.currentLesson?.quiz?.length)
-  // }
-
-  // getCourseById() {
-  //   const courseId = +this.route.snapshot.paramMap.get('id')!;
-  //   const lessonId = +this.route.snapshot.paramMap.get('lessonId')!;
-  //   this.courseService.getCourseById(courseId).subscribe(course => {
-  //     this.course = course;
-  //     // this.currentLessonIndex = course.lessons.findIndex(lesson => lesson.id === lessonId);
-  //     // this.currentLesson = course.lessons[this.currentLessonIndex];
-  //   });
-  // }
-
-  // nextLesson() {
-  //   // if (this.currentLessonIndex + 1 < this.course.lessons.length) {
-  //   //   this.currentLessonIndex++
-  //   //   // this.currentLesson = this.course.lessons[this.currentLessonIndex]
-  //   //   this.router.navigate(['/courses', this.course.id, 'lessons', this.currentLessonIndex]);
-  //   // }
-  // }
-
-  // downloadFile(url: string) {
-  //   const filename = url.split('/').pop() || 'fichier';
-  //   const a = document.createElement('a');
-  //   a.href = url;
-  //   a.download = filename;
-  //   a.click();
-  // }
-
-  // selectedAnswers: number[] = [];
-  // quizSubmitted = false;
-
-  // selectAnswer(questionIndex: number, optionIndex: number) {
-  //   this.selectedAnswers[questionIndex] = optionIndex;
-  // }
-
-  // submitQuiz() {
-  //   this.quizSubmitted = true;
-  // }
-  
+  courseId!: number;
+  chapterId!: number;
+  lessonId!: number;
+  lesson: Lesson = {id: 0, title: '', content: '', pdfUrl: '', videoUrl: ''};
+  showQuizButton: boolean = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -79,23 +26,34 @@ export class ViewerLessonComponent implements OnInit{
   ngOnInit(): void {
     this.getLessonByCourseId();
   }
+
   getLessonByCourseId() {
     const courseId = +this.route.snapshot.paramMap.get('courseId')!;
     const chapterId = +this.route.snapshot.paramMap.get('chapterId')!;
     const lessonId = +this.route.snapshot.paramMap.get('lessonId')!;
+    console.warn(courseId)
+    console.warn(chapterId)
+    console.warn(lessonId)
 
-    // Appel du service pour récupérer le cours et les leçons
+    //  Call the service to get the course and the lessons
     this.courseService.getCourseById(courseId).subscribe(course => {
-      if (course) {
-        this.courseTitle = course.title;
+      const chapter = course.chapters.find(ch => ch.id === chapterId);
+      const lessons = chapter?.lessons;
 
-        const chapter = course.chapters.find(ch => ch.id === chapterId);
-        if (chapter) {
-          this.chapterTitle = chapter.title;
-
-          this.lesson = chapter.lessons.find(l => l.id === lessonId);
-        }
+      if (lessons) {
+        this.lesson = lessons.find(lesson => lesson.id === lessonId)!;
+        const isLastLesson = lessons[lessons.length - 1].id === lessonId;
+        console.log(isLastLesson)
+        this.showQuizButton = isLastLesson && chapter.quiz.length > 0;
       }
     });
+  }
+  
+  downloadFile(url: string) {
+    const filename = url.split('/').pop() || 'fichier';
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
   }
 }

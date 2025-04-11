@@ -2,8 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { Course } from '../models/course.model';
-import { Lesson } from '../models/lesson.model';
-import { Chapter } from '../models/chapter.model';
 
 @Injectable({
   providedIn: 'root'
@@ -35,25 +33,4 @@ export class CourseService {
     )
   }
 
-  // Get Chapters By Id From Course
-  // getChapterById(courseId: number, chapterId: number): Observable<Chapter> {
-  //   return this.getCourseById(courseId).pipe(
-  //     map(course => {
-  //       const chapter = course.chapters.find(c => c.id === chapterId)
-  //       if (!chapter) throw new Error("Chapter not found !")
-  //       return chapter;
-  //     })
-  //   )
-  // }
-
-  // Get Lesson By Id From Your Course
-  // getLessonById(courseId: number, lessonId: number): Observable<Lesson> {
-  //   return this.getCourseById(courseId).pipe(
-  //     map(course => {
-  //       // const lesson = course.lessons.find(l => l.id === lessonId);
-  //       // if (!lesson) throw new Error('Lesson not found !');
-  //       // return lesson;
-  //     })
-  //   );
-  // }
 }
