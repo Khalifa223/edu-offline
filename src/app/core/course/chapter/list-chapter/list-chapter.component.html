@@ -1,0 +1,22 @@
+<div class="chapter-container">
+    <div *ngFor="let chapter of chapters" class="chapter-card">
+      <div class="chapter-header" (click)="toggleChapter(chapter.id)">
+        <h3>{{ chapter.title }}</h3>
+        <p>{{ getLessonCount(chapter) }} leçons • {{ getQuizCount(chapter) }} quiz</p>
+        <span class="toggle-arrow">{{ expandedChapterId === chapter.id ? '▲' : '▼' }}</span>
+      </div>
+  
+      <div *ngIf="expandedChapterId === chapter.id" class="chapter-details">
+        <ul>
+          <li *ngFor="let lesson of chapter.lessons">
+            📘 {{ lesson.title }}
+          </li>
+        </ul>
+  
+        <div *ngIf="chapter.quiz.length > 0">
+          <p><strong>Quiz inclus</strong> : {{ chapter.quiz.length }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

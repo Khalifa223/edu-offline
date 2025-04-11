@@ -1,1 +1,163 @@
-<p>viewer-course works!</p>
+<!-- <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+    <mat-tab label="Aperçu">
+        <p>
+            Vous avez beaucoup de tâches fastidieuses et répétitives au travail ? Vous voulez être capable de faire des
+            choses plus efficacement ? Python peut vous aider !
+
+            Python est l’un des langages de programmation les plus utilisés. Apprendre à coder avec Python est une
+            compétence très recherchée dans beaucoup de métiers. Et pas uniquement pour les développeurs logiciels à
+            temps plein. Tout le monde peut apprendre !
+
+            Python vous permet d’automatiser des tâches, comme envoyer des e-mails ou écrire dans des fichiers... Tout
+            ça pour vous aider à terminer des tâches plus efficacement.
+
+            Ce cours s’adresse aux personnes qui n’ont jamais vu une ligne de code ou qui n’ont jamais entendu parler de
+            Python. Nous allons avancer ensemble pas à pas de façon amusante et facile à comprendre. Je sais ce que ça
+            fait d’être intimidé par le code, ou de n’y rien comprendre. Je veux donc m’assurer que personne ne ressente
+            la même chose.
+
+            Dans ce cours, vous allez enregistrer des informations en tant que données en Python. Vous allez contrôler
+            la logique dans votre code avec des conditions, des boucles et des fonctions. Vous allez aussi automatiser
+            la récupération de données à partir du web avec les packages Requests, Beautiful Soup et CSV, dans le
+            processus appelé extraction de données web. Vous allez beaucoup apprendre et vous passerez un bon moment !
+
+            Qu’est-ce qu’on attend ? Commençons !
+
+            Pour découvrir l'écosystème du développement web et tous les cours que nous vous proposons à ce sujet, nous
+            vous invitons à faire un tour sur notre Carte des Connaissances ! Vous pourrez y voir en un clin d'œil les
+            différents langages et spécialisations auxquels vous pourrez vous former avec OpenClassrooms !
+
+            Une carte des cours Openclassrooms
+            La Carte des Connaissances
+            Objectifs pédagogiques
+            Créer des données avec Python
+            Gérer la logique de programmation dans Python
+            Extraire des données du web avec Python et certains de ses packages
+
+
+            Prérequis
+            Une compréhension élémentaire du Web et une expérience avec un terminal. Vous pouvez les acquérir en suivant
+            les cours suivants :
+
+            Comprendre le Web
+            Apprenez à utiliser la ligne de commande dans un terminal
+            Et si vous en faisiez votre métier ?
+            Suivez une des formations diplômantes de notre école 100% en ligne, et transformez vos connaissances en
+            compétences professionnelles.
+
+            Formations jusqu’à 100 % financées
+            Date de début flexible
+            Projets professionnalisants
+            Mentorat individuel
+            Développement
+            Développeur d'application Python
+            Construisez des applications web en utilisant le langage de programmation Python et le framework Django.
+            Diplôme de niveau 6 (bac +3/4)
+            À plein temps : 12 mois
+        </p>
+    </mat-tab>
+    <mat-tab label="Table des matières">
+        <p>
+            Table des matières
+            Partie 1
+            Créez des données avec Python
+            Tirez un maximum de ce cours
+            Installez votre environnement Python
+            Lancez votre premier programme Python
+            4
+            Enregistrez vos données avec des variables
+            5
+            Classez des données avec les types de données
+            6
+            Enregistrez des groupes de données avec les listes
+            7
+            Enregistrez des données complexes avec des dictionnaires
+            Quiz : Créer des données avec Python
+            Partie 2
+            Gérez la logique du programme dans Python
+            1
+            Contrôlez le déroulement de votre programme avec des conditions
+            2
+            Répétez des tâches facilement à l’aide de boucles
+            3
+            Regroupez des tâches en utilisant des fonctions
+            4
+            Écrivez du code en évitant les erreurs courantes
+            Quiz : Gérer la logique de programmation dans Python
+            Partie 3
+            Extrayez des données du web avec les packages Python
+            1
+            Importez des packages Python
+            2
+            Extrayez et transformez des données avec l’extraction web
+            3
+            Chargez des données avec Python
+            4
+            Relevez les défis de l’extraction de données web
+            Quiz : Extraire des données du web avec Python et certains de ses packages
+        </p>
+    </mat-tab>
+    <mat-tab label="Contributeurs">
+        <p>
+            Professeurs
+            Paul-Emile Brotons
+            Diplômé de l'EDHEC Business School, Paul-Emile est ingénieur chez MongoDB, leader dans les technologies de
+            bases de données NoSQL.
+            Ranga Gonnage
+            Développeur logiciel, mentor et enseignant.
+            Raye Schiller
+            Raye Schiller is a backend software engineer based in New York City and has an MEng. in Computer Science
+            from Cornell University 🙏💻
+        </p>
+    </mat-tab>
+</mat-tab-group> -->
+<!-- 
+<div>
+    <h1>{{ course.title }}</h1>
+    <p>{{ course.description }}</p>
+
+    <h3>Contributeurs :</h3>
+    <ul>
+        <li *ngFor="let contributor of course?.contributors">
+            {{ contributor }}
+        </li>
+    </ul>
+
+    <h3>Table des matières :</h3>
+    <ul *ngFor="let chapitre of course.chapitres">
+        <h4>{{chapitre.title}}</h4>
+
+        <li *ngFor="let lesson of chapitre.lessons">
+            <a routerLink="['/courses', course.id, 'lessons', lesson.id]">
+                {{lesson.title}}
+            </a>
+        </li>
+        <li><i>quiz :</i>{{chapitre.quiz.title}}</li>
+    </ul>
+    <ul>
+        <li *ngFor="let chapter of course?.chapters; let i = index">
+            <a [routerLink]="['/courses', course.id, 'chapters', chapter.id]">
+                {{ i + 1 }}. {{ chapter.title }}
+            </a>
+            <ul>
+                <li *ngFor="let lesson of chapter.lessons">
+                    <a routerLink="['/courses', course.id, 'chapters', chapter.id, 'lessons', lesson.id]">
+                    <button  (click)="navigateToLesson(course.id, chapter.id, lesson.id)">
+                        {{lesson.title}}
+                    </button>
+                     </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Exercices :</h3>
+    <p>{{course.exercice.id}} - {{course.exercice.content}}</p>
+</div> -->
+<div *ngIf="course">
+    <h1>{{ course.title }}</h1>
+    <p>{{ course.description }}</p>
+  
+    <app-list-chapter [chapters]="course.chapters"></app-list-chapter>
+  </div>
+  

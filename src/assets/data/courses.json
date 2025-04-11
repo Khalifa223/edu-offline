@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "nom": "Développement",
+    "title": "Debutez avec Angular",
+    "level": "facile",
+    "time": 8,
+    "description": "Ce cours va vous permettre d'apprendre les bases d'angular",
+    "contributors": [
+      "Will Alexander"
+    ],
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Préparez le terrain pour Angular",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Tirez un maximum de ce cours",
+            "pdfUrl": "assets/docs/Intro.pdf",
+            "videoUrl": "https://www.youtube.com/embed/2OHbjep_WjQ",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 2,
+            "title": "Découvrez le framework Angular",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 3,
+            "title": "Installez les dépendances",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 4,
+            "title": "Construisez une application Angular avec le CLI",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": [
+          {
+            "id": 1,
+            "question": "Angular est…",
+            "options": [
+              "librairie JavaScript",
+              "framework JavaScript",
+              "dépendance de React",
+              "nom génial pour un bar"
+            ],
+            "answerIndex": 1,
+            "explanation": "Angular est un framework JavaScript – il s'agit d'un ensemble d'outils et de composants à partir desquels on peut créer des applications."
+          },
+          {
+            "id": 2,
+            "question": "Le TypeScript est…",
+            "options": [
+              "langage qui apporte des syntaxes supplémentaires au JavaScript",
+              "langage avec du typage strict",
+              "langage avec du typage dynamique",
+              "l'un des langages principaux d'Angular",
+              "du JavaScript mélangé à du HTML"
+            ],
+            "answerIndex": 0,
+            "explanation": "Le TypeScript est un langage qui apporte des syntaxes supplémentaires au JavaScript, notamment le typage strict. Le TypeScript est l'un des principaux langages d'Angular."
+          },
+          {
+            "id": 3,
+            "question": "Dans Angular CLI, que signifie CLI ?",
+            "options": [
+              "Control Link Interface",
+              "Control Layer Interface",
+              "Command Layer Interface",
+              "Command Line Interface"
+            ],
+            "answerIndex": 3,
+            "explanation": "CLI signifie Command Line Interface, ou interface en ligne de commande."
+          },
+          {
+            "id": 4,
+            "question": "Quelle commande du CLI crée une nouvelle application Angular ?",
+            "options": [
+              "ng start",
+              "ng generate",
+              "ng new",
+              "ng serve",
+              "ng create"
+            ],
+            "answerIndex": 2,
+            "explanation": "On utilise la commande ng new pour créer une nouvelle application Angular."
+          },
+          {
+            "id": 5,
+            "question": "Quel flag permet de spécifier, lors de la création d'une application, que l'on souhaite utiliser le SCSS pour les styles ?",
+            "options": [
+              "--styles=scss",
+              "--style=scss",
+              "--scss-styles",
+              "--style-type=scss"
+            ],
+            "answerIndex": 1,
+            "explanation": "Le flag  --style=scss  dit au CLI d'Angular que vous souhaitez utiliser le SCSS."
+          },
+          {
+            "id": 6,
+            "question": "Avec quelle commande du CLI démarre-t-on le serveur de développement ?",
+            "options": [
+              "ng generate",
+              "ng server",
+              "ng deploy",
+              "ng serve",
+              "ng development"
+            ],
+            "answerIndex": 3,
+            "explanation": "La commande ng serve sert à démarrer le serveur de développement."
+          },
+          {
+            "id": 7,
+            "question": "Quelle est l'extension de fichier pour un fichier TypeScript ?",
+            "options": [
+              ".tscript",
+              ".ts",
+              ".types",
+              ".typescript",
+              ".tsc"
+            ],
+            "answerIndex": 1,
+            "explanation": "Les fichiers TypeScript ont l'extension  .ts"
+          },
+          {
+            "id": 8,
+            "question": "Dans le fichier index.html, à quoi correspond la balise  <app-root>  ?",
+            "options": [
+              "component AppComponent",
+              "module AppModule",
+              "contenu de main.ts",
+              "component de test TestComponent"
+            ],
+            "answerIndex": 0,
+            "explanation": "La balise  <app-root>  correspond au component AppComponent, le component racine de votre application."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Construisez des components",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Construisez votre premier component",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 6,
+            "title": "Affichez des données",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 7,
+            "title": "Réagissez aux événements",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 8,
+            "title": "Ajoutez des propriétés personnalisées",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": []
+      },
+      {
+        "id": 3,
+        "title": "Ajoutez de la structure et du style",
+        "lessons": [
+          {
+            "id": 9,
+            "title": "Conditionnez l'affichage des éléments",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 10,
+            "title": "Affichez des listes",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 11,
+            "title": "Ajoutez du style dynamique",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 12,
+            "title": "Mettez de la classe",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": []
+      },
+      {
+        "id": 4,
+        "title": "Modifiez l'affichage des données avec les pipes",
+        "lessons": [
+          {
+            "id": 13,
+            "title": "Changez la casse",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 14,
+            "title": "Formatez les dates",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 15,
+            "title": "Formatez les chiffres",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": []
+      },
+      {
+        "id": 5,
+        "title": "Améliorez la structure de votre application avec les services et le routing",
+        "lessons": [
+          {
+            "id": 16,
+            "title": "Partagez des données avec les Services",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 17,
+            "title": "Centralisez votre logique avec les Services",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 18,
+            "title": "Passez en SPA avec le routing",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 19,
+            "title": "Passez d'une route à l'autre",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 20,
+            "title": "Activez les routes avec ActivatedRoute",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 21,
+            "title": "Formatez les chiffres",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Développement",
+    "title": "Apprenez les bases du langage Python",
+    "level": "facile",
+    "time": 6,
+    "description": "Python est très demandé et accessible pour les débutants. Apprenez à coder avec Python pour écrire des programmes simples mais puissants,...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "chapters": [
+
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Data",
+    "title": "Objectif IA : initiez-vous à l'intelligence artificielle",
+    "level": "facile",
+    "time": 6,
+    "description": "Vous découvrirez ce que recouvre vraiment l'intelligence artificielle ! Ses enjeux, ses possibilités, son fonctionnement scientifique ain...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "chapters": [
+      
+    ]
+  }
+]

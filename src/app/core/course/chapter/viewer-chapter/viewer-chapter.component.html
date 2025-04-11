@@ -1,0 +1,24 @@
+<!-- <h1>{{ course.title }}</h1>
+<p>{{ course.description }}</p>
+<h1>{{ course.title }}</h1>
+<p>{{ course.description }}</p>
+
+<h3>Contributeurs :</h3>
+<ul>
+  <li *ngFor="let contributor of course?.contributors">
+    {{ contributor }}
+  </li>
+</ul>
+
+<h3>Table des matières :</h3>
+<ul>
+  <li *ngFor="let lesson of course?.lessons; let i = index">
+    <a [routerLink]="['/courses', course.id, 'lessons', lesson.id]">
+      {{ i + 1 }}. {{ lesson.title }}
+    </a>
+  </li>
+</ul> -->
+
+
+<h2>{{ currentChapter.title }}</h2>
+<div *ngFor="let lesson of currentChapter.lessons">{{ lesson.title }}</div>

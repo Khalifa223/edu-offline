@@ -1,0 +1,675 @@
+[
+  {
+    "id": 1,
+    "nom": "Développement",
+    "title": "Debutez avec Angular",
+    "level": "facile",
+    "time": 8,
+    "description": "Ce cours va vous permettre d'apprendre les bases d'angular",
+    "contributors": [
+      "Will Alexander"
+    ],
+    "chapitres": [
+      {
+        "id": 1,
+        "title": "Préparez le terrain pour Angular",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Tirez un maximum de ce cours",
+            "pdfUrl": "assets/docs/Intro.pdf",
+            "videoUrl": "https://www.youtube.com/embed/2OHbjep_WjQ",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 2,
+            "title": "Découvrez le framework Angular",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 3,
+            "title": "Installez les dépendances",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 4,
+            "title": "Construisez une application Angular avec le CLI",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": {
+          "id":1,
+          "title": "Préparez le terrain pour Angular",
+          "questions": [
+            {
+              "question": "Angular est un framework développé par ?",
+              "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+              ],
+              "answer": "Google"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Construisez des components",
+        "lessons": [
+          {
+            "id": 5,
+            "title": "Construisez votre premier component",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 6,
+            "title": "Affichez des données",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 7,
+            "title": "Réagissez aux événements",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 8,
+            "title": "Ajoutez des propriétés personnalisées",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": {
+          "id": 2,
+          "title": "Construisez des components",
+          "questions": [
+            {
+              "question": "Angular est un framework développé par ?",
+              "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+              ],
+              "answer": "Google"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "title": "Ajoutez de la structure et du style",
+        "lessons": [
+          {
+            "id": 9,
+            "title": "Conditionnez l'affichage des éléments",
+            "content": "Angular est un framework open-source développé par Google..."
+          },
+          {
+            "id": 10,
+            "title": "Affichez des listes",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 11,
+            "title": "Ajoutez du style dynamique",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 12,
+            "title": "Mettez de la classe",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": {
+          "id": 3,
+          "title": "Ajoutez de la structure et du style",
+          "questions": [
+            {
+              "question": "Angular est un framework développé par ?",
+              "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+              ],
+              "answer": "Google"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Modifiez l'affichage des données avec les pipes",
+        "lessons": [
+          {
+            "id": 13,
+            "title": "Changez la casse",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 14,
+            "title": "Formatez les dates",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 15,
+            "title": "Formatez les chiffres",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": {
+          "id": 4,
+          "title": "Modifiez l'affichage des données avec les pipes",
+          "questions": [
+            {
+              "question": "Angular est un framework développé par ?",
+              "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+              ],
+              "answer": "Google"
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "title": "Améliorez la structure de votre application avec les services et le routing",
+        "lessons": [
+          {
+            "id": 16,
+            "title": "Partagez des données avec les Services",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 17,
+            "title": "Centralisez votre logique avec les Services",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 18,
+            "title": "Passez en SPA avec le routing",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 19,
+            "title": "Passez d'une route à l'autre",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 20,
+            "title": "Activez les routes avec ActivatedRoute",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          },
+          {
+            "id": 21,
+            "title": "Formatez les chiffres",
+            "content": "Les composants Angular sont les briques de base de l'UI..."
+          }
+        ],
+        "quiz": {
+          "id": 5,
+          "title": "Améliorez la structure de votre application avec les services et le routing",
+          "questions": [
+            {
+              "question": "Angular est un framework développé par ?",
+              "options": [
+                "Facebook",
+                "Google",
+                "Microsoft"
+              ],
+              "answer": "Google"
+            }
+          ]
+        }
+      }
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Tirez un maximum de ce cours",
+        "pdfUrl": "assets/docs/Intro.pdf",
+        "videoUrl": "https://www.youtube.com/embed/2OHbjep_WjQ",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 2,
+        "title": "Découvrez le framework Angular",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 3,
+        "title": "Installez les dépendances",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 4,
+        "title": "Construisez une application Angular avec le CLI",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 5,
+        "title": "Construisez votre premier component",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 6,
+        "title": "Affichez des données",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 7,
+        "title": "Réagissez aux événements",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 8,
+        "title": "Ajoutez des propriétés personnalisées",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 9,
+        "title": "Conditionnez l'affichage des éléments",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 10,
+        "title": "Affichez des listes",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 11,
+        "title": "Ajoutez du style dynamique",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 12,
+        "title": "Mettez de la classe",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 13,
+        "title": "Changez la casse",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 14,
+        "title": "Formatez les dates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 15,
+        "title": "Formatez les chiffres",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 16,
+        "title": "Partagez des données avec les Services",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 17,
+        "title": "Centralisez votre logique avec les Services",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 18,
+        "title": "Passez en SPA avec le routing",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 19,
+        "title": "Passez d'une route à l'autre",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 20,
+        "title": "Activez les routes avec ActivatedRoute",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      },
+      {
+        "id": 21,
+        "title": "Formatez les chiffres",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ],
+    "exercice": {
+      "id": 1,
+      "content": "Exo1"
+    }
+  },
+  {
+    "id": 2,
+    "nom": "Développement",
+    "title": "Apprenez les bases du langage Python",
+    "level": "facile",
+    "time": 6,
+    "description": "Python est très demandé et accessible pour les débutants. Apprenez à coder avec Python pour écrire des programmes simples mais puissants,...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Data",
+    "title": "Objectif IA : initiez-vous à l'intelligence artificielle",
+    "level": "facile",
+    "time": 6,
+    "description": "Vous découvrirez ce que recouvre vraiment l'intelligence artificielle ! Ses enjeux, ses possibilités, son fonctionnement scientifique ain...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Développement",
+    "title": "Créez votre site web avec HTML5 et CSS3",
+    "level": "facile",
+    "time": 15,
+    "description": "Vous rêvez d'apprendre à créer des sites web ? Débutez avec ce cours qui vous enseignera tout ce qu'il faut savoir sur le développement d...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "Bureautique",
+    "title": "Maîtrisez les fondamentaux d'Excel",
+    "level": "facile",
+    "time": 6,
+    "description": "La maîtrise des fonctionnalités d'Excel est souvent indispensable. Prenez en main le logiciel puis allez plus loin avec les tableaux, les...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nom": "Data",
+    "title": "Utilisez ChatGPT pour améliorer votre productivité",
+    "level": "facile",
+    "time": 2,
+    "description": "Apprenez à utiliser ChatGPT pour augmenter votre productivité : grâce au prompt engineering découvrez sur quelles tâches de votre métier ...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "Développement",
+    "title": "Apprenez à programmer avec JavaScript",
+    "level": "facile",
+    "time": 12,
+    "description": "Maîtrisez les bases de la programmation JavaScript et sa logique de programmation en réalisant un site web dynamique.",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "Développement",
+    "title": "Apprenez à programmer en C",
+    "level": "moyenne",
+    "time": 10,
+    "description": "Le langage C est plutôt complexe mais si vous le maîtrisez vous aurez des bases de programmation très solides !",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nom": "Systèmes & Réseaux",
+    "title": "Concevez votre réseau TCP/IP",
+    "level": "facile",
+    "time": 10,
+    "description": "Concevez votre premier réseau TCP/IP et découvrez l'outil de simulation Cisco Packet Tracer en réalisant ce cours en 3 étapes : créez l'a...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nom": "Développement",
+    "title": "Comprendre le Web",
+    "level": "facile",
+    "time": 6,
+    "description": "Le monde du Web vous intéresse, mais vous n’y connaissez rien ? Vous décrochez quand vous entendez du vocabulaire geek ? Imprégnez-vous d...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "Systèmes & Réseaux",
+    "title": "Initiez-vous à Linux",
+    "level": "facile",
+    "time": 8,
+    "description": "Dans ce cours débutant, découvrez Linux : un système d'exploitation gratuit et fascinant qui vous donnera un contrôle sans précédent sur ...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Marketing & Communication",
+    "title": "Initiez-vous au marketing digital",
+    "level": "facile",
+    "time": 10,
+    "description": "Le marketing digital offre un arsenal d’outils et de techniques permettant de mener des actions toujours plus personnalisées, dont la per...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nom": "Pédagogie",
+    "title": "Optimisez votre apprentissage avec l'Intelligence Artificielle",
+    "level": "facile",
+    "time": 6,
+    "description": "Utiliser l’IA en gardant un esprit critique, pour acquérir plus rapidement des compétences, gagner en productivité et mieux organiser vot...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nom": "Cybersécurité",
+    "title": "Découvrez l'univers de la cybersécurité",
+    "level": "facile",
+    "time": 4,
+    "description": "Comprenez le déroulement des cyberattaques, enjeu majeur de société, et découvrez l’ensemble des métiers qui participent à la cybersécuri...",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Débutez avec Angular",
+    "level": "facile",
+    "time": 10,
+    "description": "Apprenez à créer une application Angular pas à pas.",
+    "contributors": [
+      "Jean Codeur",
+      "Alice Dev"
+    ],
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+      },
+      {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+      }
+    ]
+  }
+]
