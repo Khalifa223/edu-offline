@@ -1,0 +1,67 @@
+<!-- PDF -->
+<!-- <h2>{{ currentLesson.title }}</h2>
+<div>{{ currentLesson.content }}</div> -->
+
+<!-- <div *ngIf="currentLesson?.pdfUrl">
+  <h4>Document PDF</h4>
+  <iframe
+    [src]="currentLesson.pdfUrl | safeUrl"
+    width="100%"
+    height="600px">
+  </iframe>
+</div> -->
+<!-- 📄 Télécharger le PDF -->
+<!-- <div *ngIf="currentLesson?.pdfUrl">
+  <button (click)="downloadFile(currentLesson.pdfUrl)">
+    📥 Télécharger le PDF
+  </button>
+</div>   -->
+
+
+<!-- 
+Vidéo
+<div *ngIf="currentLesson?.videoUrl">
+  <h4>Vidéo</h4>
+  <iframe
+    width="100%"
+    height="400px"
+    [src]="currentLesson.videoUrl | safeUrl"
+    frameborder="0"
+    allowfullscreen>
+  </iframe> -->
+  <!-- 🎬 Télécharger la vidéo -->
+<!-- <div *ngIf="currentLesson?.videoUrl && currentLesson.videoUrl.endsWith('.mp4')">
+  <button (click)="downloadFile(currentLesson.videoUrl)">
+    📥 Télécharger la vidéo
+  </button>
+</div> -->
+
+
+<!-- <button (click)="nextLesson()" *ngIf="course?.lessons?.length && currentLessonIndex + 1 < course.lessons.length"> -->
+  <!-- Leçon suivante → -->
+<!-- </button> -->
+
+<div class="lesson-wrapper" *ngIf="lesson">
+  <div class="lesson-header">
+    <h1>{{ lesson.title }}</h1>
+    <a *ngIf="lesson.pdfUrl" [href]="lesson.pdfUrl" download class="btn-download">
+      📄 Télécharger le support PDF
+    </a>
+  </div>
+
+  <p class="lesson-path">
+    Cours : <strong>{{ courseTitle }}</strong> → Chapitre : <strong>{{ chapterTitle }}</strong>
+  </p>
+
+  <div *ngIf="lesson.videoUrl" class="lesson-video">
+    <iframe
+      [src]="lesson.videoUrl | safeUrl"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="lesson-content">
+    <p>{{ lesson.content }}</p>
+  </div>
+</div>

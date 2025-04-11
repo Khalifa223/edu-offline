@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "title": "Tirez un maximum de ce cours",
+        "pdfUrl": "assets/docs/Intro.pdf",
+        "videoUrl": "https://www.youtube.com/embed/2OHbjep_WjQ",
+        "content": "Angular est un framework open-source développé par Google..."
+    },
+    {
+        "id": 2,
+        "title": "Découvrez le framework Angular",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 3,
+        "title": "Installez les dépendances",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 4,
+        "title": "Construisez une application Angular avec le CLI",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 5,
+        "title": "Construisez votre premier component",
+        "content": "Angular est un framework open-source développé par Google..."
+    },
+    {
+        "id": 6,
+        "title": "Affichez des données",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 7,
+        "title": "Réagissez aux événements",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 8,
+        "title": "Ajoutez des propriétés personnalisées",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 9,
+        "title": "Conditionnez l'affichage des éléments",
+        "content": "Angular est un framework open-source développé par Google..."
+    },
+    {
+        "id": 10,
+        "title": "Affichez des listes",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 11,
+        "title": "Ajoutez du style dynamique",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 12,
+        "title": "Mettez de la classe",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 13,
+        "title": "Changez la casse",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 14,
+        "title": "Formatez les dates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 15,
+        "title": "Formatez les chiffres",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 16,
+        "title": "Partagez des données avec les Services",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 17,
+        "title": "Centralisez votre logique avec les Services",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 18,
+        "title": "Passez en SPA avec le routing",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 19,
+        "title": "Passez d'une route à l'autre",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 20,
+        "title": "Activez les routes avec ActivatedRoute",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 21,
+        "title": "Formatez les chiffres",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    },
+    {
+        "id": 101,
+        "title": "Introduction à Angular",
+        "content": "Angular est un framework open-source développé par Google..."
+    },
+    {
+        "id": 102,
+        "title": "Composants et Templates",
+        "content": "Les composants Angular sont les briques de base de l'UI..."
+    }
+]
